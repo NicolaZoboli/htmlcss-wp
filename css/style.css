@@ -95,6 +95,8 @@ header nav ul li a {
 
 }
 
+/* lo stile del dropdown */
+
 /* il continitore necessario a posizionare il contenuto del dropdown */
 .dropdown {
   position: relative;
