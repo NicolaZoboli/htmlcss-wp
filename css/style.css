@@ -147,14 +147,11 @@ body {
   line-height: 2;
 }
 
-.article .double {
+.article .right {
   background-color: white;
   border-radius: 5px;
   padding: 20px;
-}
-
-.double:last-child {
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* sezione centrale */
@@ -182,7 +179,37 @@ body {
 /* footer */
 
 #container footer {
-  /* debug */
-  background-color: lightblue;
-  height: 70px;
+  background-color: white;
+  height: 120px;
+  border-radius: 5px;
+  position: relative;
+}
+
+#container footer span {
+  font-size: 15px;
+  border-bottom: 1px solid lightgrey;
+  color: grey;
+  display: block;
+  width: 99%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3px;
+}
+
+#container footer .img-footer {
+  display: inline-block;
+  position: absolute;
+  top: 65%;
+  transform: translate(0, -65%);
+  width: 100%;
+  text-align: center;
+}
+
+#container footer .img-footer img {
+  width: 50px;
+}
+
+#container footer .img-footer .logo-footer-center {
+  margin: 0 200px;
+
 }
