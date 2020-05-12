@@ -12,7 +12,7 @@ body {
 
 #container {
   margin: 15px auto;
-  width: 85%;
+  width: 80%;
 }
 
 /* header */
@@ -100,10 +100,20 @@ body {
 
 #content .article {
   float: left;
+  border-radius: 5px;
 }
+
+/* aside */
 
 #content aside {
   width: 25%;
+}
+
+/* aside di sinistra */
+
+#content .left {
+  background-color: white;
+  padding: 10px;
 }
 
 #content .left p {
@@ -121,34 +131,52 @@ body {
 #content .left a {
   color: green;
   text-decoration: none;
+  font-weight: 600;
 }
 
-#content .left {
-  background-color: white;
-  padding: 10px;
+/* aside di destra */
+
+
+#content .right h3 {
+  color: #3F250B;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
-#content .right {
-  /* debug */
-  height: 300px;
-}
-
-#content .middle {
-  width: 45%;
-  margin: 0 2.5%;
-  /* debug */
-  background-color: violet;
-  height: 340px;
+#content .right p {
+  line-height: 2;
 }
 
 .article .double {
-  /* debug */
-  background-color: pink;
-  height: 50%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .double:last-child {
   margin-top: 15px;
+}
+
+/* sezione centrale */
+
+#content .middle {
+  width: 45%;
+  margin: 0 2.5%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+#content .middle h3 {
+  color: #3F250B;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px lightgrey;
+}
+
+#content .middle p {
+  line-height: 2;
 }
 
 /* footer */
