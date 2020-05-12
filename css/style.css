@@ -4,16 +4,83 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+  background-size: cover;
+}
+
 #container {
-  margin: 15px;
+  margin: 15px auto;
+  width: 85%;
 }
 
 /* header */
 
 #container header {
-  /* debug */
-  background-color: yellow;
-  height: 100px;
+  height: 350px;
+}
+
+#container header .forest{
+  background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+  background-size: cover;
+  border: 10px solid white;
+  height: 85%;
+  position: relative;
+}
+
+#container header .forest .title {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#container header .forest .title h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+#container header .forest .title h2 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  margin: 6px 0px;
+}
+
+#container header nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 15%;
+  position: relative;
+
+}
+
+#container header nav ul {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#container header nav ul li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+#container header nav ul li a {
+  color: white;
+  text-decoration: none;
+  
 }
 
 /* sezione principale */
